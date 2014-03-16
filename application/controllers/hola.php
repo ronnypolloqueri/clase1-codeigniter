@@ -4,13 +4,13 @@ class Hola extends CI_Controller{
     echo "Hola mundo";
   }
    
-  function holas($nombre='Nadie', $edad =0) {
+  function _holas($nombre='Nadie', $edad =0) {
     echo "Hola tu nombre es :   ".$nombre." y tu edad ".$edad ;
   }
    
    
   
-  function saludo($id=0){
+  private function saludo($id=0){
     switch($id){
       case 0:
         echo "Buenos Dìas";break;
