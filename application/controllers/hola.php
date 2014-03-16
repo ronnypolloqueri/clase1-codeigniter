@@ -20,5 +20,17 @@ class Hola extends CI_Controller{
         echo "Buenjas Noches";break;
     }
   }
+  
+  function edad($anio){
+    $edad = "Tu edad es : ".$this->_calcular($anio);
+  }
+  
+  
+  function _cacular($anio){
+    $edad = 2014 -  $anio;
+    return $edad;
+  }
+  
+  
 }
 ?>
