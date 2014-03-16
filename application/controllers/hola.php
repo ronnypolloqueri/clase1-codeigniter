@@ -8,7 +8,7 @@ class Hola extends CI_Controller{
   }
   
   function saludo($id=0){
-    switch(id){
+    switch($id){
       case 0:
         echo "Buenos Dìas";break;
       case 1:
