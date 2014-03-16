@@ -22,7 +22,7 @@ class Hola extends CI_Controller{
   }
   
   function edad($anio){
-    $edad = "Tu edad es : ".$this->_calcular($anio);
+    echo "Tu edad es : ".$this->_calcular($anio);
   }
   
   
