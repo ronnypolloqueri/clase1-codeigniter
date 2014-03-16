@@ -26,7 +26,7 @@ class Hola extends CI_Controller{
   }
   
   
-  function _cacular($anio){
+  function _calcular($anio){
     $edad = 2014 -  $anio;
     return $edad;
   }
