@@ -4,8 +4,8 @@ class Hola extends CI_Controller{
     echo "Hola mundo";
   }
    
-  function hola($nombre='Nadie', $edad =0) {
-    echo "Hola tu nombre es : "+$nombre + "y tu edad " + $edad ;
+  function holas($nombre='Nadie', $edad =0) {
+    echo "Hola tu nombre es :   ".$nombre." y tu edad ".$edad ;
   }
    
    
